@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Starbuzz Coffee</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="logo/headerLogo.gif" id="logo">
+                <img src="logo/headerSlogan.gif" id="slogan">
+            </header>
+            <nav class="menubar">
+                <a href="../starbuzz4.html">HOME</a>
+                <a href="../Blog/blog.html">BLOG</a>
+                <a href="#">INVITENTIONS</a>
+                <a href="#">RECIPES</a>
+                <a href="#">LOCATIONS</a>
+            </nav>
+             <h1 id="beanmachine">The Starbuzz Bean Machine</h1>
+            <div class="fill">
+                <p>Fill out the form below and click "order now" to make an order</p>
+            </div>
+            <form id="form" method="post Acion">
+                <div>
+                    <label for="beans">Choose your beans:</label>
+                    <select name="beans" id="beans">
+                        <option value="house blend">House blend</option>
+                        <option value="mocha cafe latte">Mocha Cafe latte</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="chai tea">Chai Tea</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="type">Type:</label>
+                    <input type="radio" name="bean" id="whole bean"/> Whole bean<br>
+                    <input type="radio" name="bean" id="ground"/> Ground
+                </div>
+                <div>
+                    <label for="bags">Number of bags:</label>
+                    <input type="number" name="bags" id="bags"/>
+                </div>
+                <div>
+                    <label for="date">Must arrive by date:</label>
+                    <input type="date" name="date" id="date"/>
+                </div>
+                <div>
+                    <label for="extras">Extreas:</label>
+                    <input type="checkbox" name="extra" id="gift"/> Gift Wrap<br>
+                    <input type="checkbox" name="extra" id="iclude"/> Include catalog with order
+                </div>
+                <h4>Ship to:</h4>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"/>
+                </div>
+                 <div>
+                     <label for="address">Address:</label>
+                     <input type="text" name="address" id="address"/>
+                </div>
+                 <div>
+                     <label for="city">City:</label>
+                     <input type="text" name="city" id="city"/>
+                </div>
+                 <div>
+                     <label for="state">State:</label>
+                     <input type="text" name="state" id="state"/>
+                </div>
+                 <div>
+                     <label for="zip">Zip:</label>
+                     <input type="text" name="zip" id="zip"/>
+                </div>
+                 <div>
+                     <label for="phone">Phone:</label>
+                     <input type="tel" name="phone" id="phone"/>
+                </div>
+                 <div>
+                     <label for="comments">Customer Comments:</label>
+                     <textarea name="comments" rows="5" cols="50" id="comments"></textarea>
+                </div>
+                 <div>
+                     <input type="submit" id="submit" value="Order Now">
+                </div>
+            </form>
+            <footer>
+                &copy;starbuzz coffee<br>
+                All trademarks and registered trademarks appering on this site are properly of their respective owners.
+            </footer>
+        </div>
+    </body>
+</html>
